@@ -1,0 +1,2 @@
+export const PHOTO_HERO = 'https://static1.purebreak.com.br/articles/6/42/37/6/@/197155-thor-chris-hemsworth-conta-porque-nao-diapo-3.jpg';
+export const PHOTO_ENEMY = 'https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/6/63/97d1d9f934a350cee765c5ac1a466605.jpg/revision/latest?cb=20190527184444';
