@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 //Disciplina nome curso capacidade
 export default class Create extends Component {
@@ -26,9 +27,25 @@ export default class Create extends Component {
       onSubmit(e){
         e.preventDefault();
         
-        console.log('Nome: ' + this.state.nome)
+        /*console.log('Nome: ' + this.state.nome)
         console.log('Curso: ' + this.state.curso)
-        console.log('Capacidade: ' + this.state.capacidade)
+        console.log('Capacidade: ' + this.state.capacidade)*/
+
+        const novaDisciplina = {nome:this.state.nome,
+                                curso:this.state.curso,
+                                capacidade:this.state.capacidade}
+
+        axios.post('http://localhost:3001/disciplina', novaDisciplina)
+        .then(
+          (res) => {
+            console.log('Disciplina ' + res.data.nome + ' inserida com sucesso')
+          }
+        )
+        .catch(
+          (error) => {
+            console.log(error)
+          }
+        )
 
         this.setState({nome:'', curso:'', capacidade:''})
       }
