@@ -1,0 +1,58 @@
+{
+  "disciplina": [
+    {
+      "id": 1,
+      "nome": "WEB",
+      "curso": "SI",
+      "capacidade": "50"
+    },
+    {
+      "id": 2,
+      "nome": "APS",
+      "curso": "SI",
+      "capacidade": "50"
+    },
+    {
+      "id": 3,
+      "nome": "CSGBD",
+      "curso": "SI",
+      "capacidade": "50"
+    },
+    {
+      "id": 4,
+      "nome": "LIP",
+      "curso": "SI",
+      "capacidade": "50"
+    },
+    {
+      "nome": "ES",
+      "curso": "SI",
+      "capacidade": "50",
+      "id": 5
+    },
+    {
+      "nome": "FUP",
+      "curso": "SI",
+      "capacidade": "30",
+      "id": 6
+    },
+    {
+      "nome": "POO",
+      "curso": "SI",
+      "capacidade": "40",
+      "id": 7
+    },
+    {
+      "nome": "ED",
+      "curso": "SI",
+      "capacidade": "38",
+      "id": 8
+    },
+    {
+      "nome": "GISI",
+      "curso": "SI",
+      "capacidade": "50",
+      "id": 9
+    }
+  ]
+}
