@@ -1,0 +1,12 @@
+.navigate button {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.navigate input {
+    color: black;
+    width: 50px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
