@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './Card.css';
+import './Numero.css';
 
-export default class Card extends Component {
+export default class Numero extends Component {
     getColor(){
         if(this.props.blue===true) return 'bg-primary'
         if(this.props.red===true) return 'bg-danger'
